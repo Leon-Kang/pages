@@ -45,14 +45,17 @@
     height: 200px;
     width: 60%;
     border-radius: 8px;
-    background: cornflowerblue;
+    background: white;
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: calc(8px + 2vmin);
-    color: snow;
+    color: gray;
     margin: 32px;
     padding: 16px;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    border-style: dashed;
 }
 
 .content {
@@ -60,10 +63,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(8px + 2vmin);
     color: cornflowerblue;
 }
 
 .App-link {
-    color: #61dafb;
+    color: black;
+}
+
+.email-link {
+    color: dimgray;
+    font-style: italic;
+    font-size: calc(4px + 2vmin);
+    margin-top: 4pt;
 }
