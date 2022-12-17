@@ -8,7 +8,7 @@ export default class MainNav extends React.Component<{}> {
     render() {
         return (
             <React.StrictMode>
-                <Navbar  variant="light" bg="light" expand="lg">
+                <Navbar variant="light" bg="white" expand="lg">
                     <Container>
                         <Navbar.Brand href="/">Home</Navbar.Brand>
                         <Nav className="me-auto">
