@@ -8,7 +8,7 @@ class Home extends React.Component<{}> {
                 <div className="content left">
                     <img src={avatar} alt="" title="hello!" className="avatar" />
                     <a href="/" className="App-link"> Leon Kang </a>
-                    <a href="/" className="App-link"> me@leonkang.com </a>
+                    <a href="/" className="email-link"> me@leonkang.com </a>
 
                     <div className="derived"/>
                 </div>
